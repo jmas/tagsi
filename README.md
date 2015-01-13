@@ -1,6 +1,8 @@
 # tagsi
 
-Low-size (3k), Input field for working with tags <b>without jQuery</b>.
+* Input field for working with Tags
+* Low-size (3k)
+* <b>Without jQuery</b>.
 
 # Demo
 
