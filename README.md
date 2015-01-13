@@ -1,4 +1,4 @@
-# tagsi
+# Tagsi
 
 * Input field for working with Tags
 * Low-size (3k)
