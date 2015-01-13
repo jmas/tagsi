@@ -1,0 +1,57 @@
+.tagsi {
+  padding: .2em .5em;
+  line-height: 1.2em;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: .15em;
+  background-color: #fff;
+  display: block;
+  transition: .3s;
+  overflow: hidden;
+}
+
+.tagsi input {
+  padding: .3em 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1em;
+  border: none !important;
+  border: 1px solid transparent;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.tagsi input:focus {
+  outline: none !important;
+} 
+
+.tagsi-item {
+  border: 1px solid rgba(0,0,0,.2);
+  padding: .1em .2em;
+  margin: .1em 0;
+  display: inline-block;
+  margin-right: .2em;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: .15em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  max-width: 15em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.tagsi-item span {
+  color: #888;
+}
+
+.tagsi.tagsi-active {
+  border-color: rgba(110,114,146,.6);
+  box-shadow: 0 0 .4em rgba(227,191,49,.5);
+}
