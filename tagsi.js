@@ -22,6 +22,12 @@ function tagsi(id) {
   }
 
   function addTag(name) {
+    name = String(name).trim();
+
+    if (name === '') {
+      return;
+    }
+    
     var tag = document.createElement('SPAN');
     tag.innerHTML = name + ' <span>&times;</span>';
     tag.className = 'tagsi-item';
