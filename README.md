@@ -2,7 +2,7 @@
 
 * HTML Input field for working with Tags
 * Low-size (3k)
-* <b>Without jQuery</b>
+* Plain JS (<b>Without jQuery</b>)
 * Supported Component.Io, DuoJS
 
 # Demo
