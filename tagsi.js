@@ -172,6 +172,7 @@ function tagsi(id) {
   wrapper.appendChild(fakeInput);
 }
 
+// exports
 if (typeof module !== 'undefined') {
   module.exports = tagsi;
 } else {
