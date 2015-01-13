@@ -1,0 +1,5 @@
+{
+  "scripts": ["tagsi.js"],
+  "styles": ["tagsi.css"],
+  "main": "tagsi.js"
+}
