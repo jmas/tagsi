@@ -1,8 +1,12 @@
 # tagsi
 
-Input field for working with tags without jQuery.
+Low-size (3k), Input field for working with tags <b>without jQuery</b>.
 
-# How to use
+# Demo
+
+http://jsbin.com/jilabo
+
+# How to Use
 
 ```javascript
 // pass element ID to function
