@@ -9,7 +9,8 @@
   overflow: hidden;
 }
 
-.tagsi input {
+.tagsi input,
+.tagsi textarea {
   padding: .3em 0;
   margin: 0;
   display: inline-block;
@@ -21,7 +22,8 @@
   box-shadow: none !important;
 }
 
-.tagsi input:focus {
+.tagsi input:focus,
+.tagsi textarea:focus {
   outline: none !important;
 } 
 
