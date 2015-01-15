@@ -71,12 +71,13 @@ function tagsi(id) {
   
   var wrapper = document.createElement('label');
   var tagsCont = document.createElement('SPAN');
-  tagsCont.className = 'tagsi-list';
+  tagsCont.setAttribute('class', 'tagsi-list');
   var fakeInput = document.createElement('INPUT');
-  fakeInput.type = 'text';
-  fakeInput.name = input.name;
+  fakeInput.setAttribute('type', 'text');
+  fakeInput.setAttribute('name', input.name);
+  fakeInput.setAttribute('class', 'tagsi-fakeinput');
   fakeInput.style.display = 'none';
-  input.name = '';
+  input.removeAttribute('name');
 
   var lastChar = false;
 
