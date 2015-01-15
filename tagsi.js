@@ -69,12 +69,18 @@ function tagsi(id) {
     var input = id;
   }
   
+  var name = input.getAttribute('name');
+
   var wrapper = document.createElement('label');
   var tagsCont = document.createElement('SPAN');
   tagsCont.setAttribute('class', 'tagsi-list');
   var fakeInput = document.createElement('INPUT');
   fakeInput.setAttribute('type', 'text');
-  fakeInput.setAttribute('name', input.name);
+
+  if (name) {
+    fakeInput.setAttribute('name', name);
+  }
+
   fakeInput.setAttribute('class', 'tagsi-fakeinput');
   fakeInput.style.display = 'none';
   input.removeAttribute('name');
